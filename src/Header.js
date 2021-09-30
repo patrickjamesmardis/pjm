@@ -2,12 +2,12 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 // TODO: dark/light react state to control dark/light
 
-const darkMode = "dark"
+const bg = "dark"
 function Header() {
   return (
-    <Navbar bg={darkMode} variant={darkMode} expand="sm" className="d-flex justify-content-between px-4">
+    <Navbar bg={bg} variant={bg} expand="sm" className="d-flex justify-content-between px-5 pt-5">
       <div>
-        <Navbar.Brand href="#home" className="text-white">Patrick James Mardis</Navbar.Brand>
+        <Navbar.Brand href="#home" className="fs-2">Patrick James Mardis</Navbar.Brand>
       </div>
       <div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
