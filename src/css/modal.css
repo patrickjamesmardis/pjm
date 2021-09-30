@@ -1,0 +1,6 @@
+@media(min-width: 576px) {
+    .modal-60w {
+        width: 60vw !important;
+        max-width: 60vw !important;
+    }
+}
